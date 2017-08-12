@@ -1,0 +1,13 @@
+<extend name="Base/base"/>
+<block name="content">
+    <div class="container-fluid">
+        <div class="blank"></div>
+        <h3 class="noticeDetailTitle"><strong>{$notice.title}</strong></h3>
+        <div class="noticeDetailInfo">{$notice.create_time|time_format}</div>
+        <div class="noticeDetailContent">
+           {$article.content}
+        </div>
+    </div>
+</block>
+
+

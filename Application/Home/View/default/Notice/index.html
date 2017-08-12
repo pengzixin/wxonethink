@@ -1,0 +1,63 @@
+<extend name="Base/base"/>
+<block name="content">
+    <div class="container-fluid" id="content_list">
+        <volist name="list" id="document">
+            <div class="row noticeList">
+                <a href="{:U('Notice/notice?id='.$document['id'])}">
+                    <div class="col-xs-2">
+                        <img class="noticeImg" src=".{$document.path}" />
+                    </div>
+                    <div class="col-xs-10">
+                        <p class="title">{$document.title}</p>
+                        <p class="intro">{$document.description}</p>
+                        <p class="info">{$document.view} <span class="pull-right">{$document.create_time|time_format}</span> </p>
+                    </div>
+                </a>
+            </div>
+        </volist>
+    </div>
+    <div class="text-center">
+        <button type="button" class="btn btn-info ajax-page" id="btn">获取更多数据~~~</button>
+    </div>
+</block>
+<block name="new_js">
+    <script type="text/javascript">
+
+        var p = 0;
+        var url = '/index.php?s=/Home/Notice/index';
+        var inner_url = '/index.php?s=/Home/Notice/notice';
+        $(function(){
+            $('.ajax-page').click(function () {
+                if($(this).hasClass('ajax-page')){
+                    p = p+1;
+                    $.getJSON(url+'/p/'+p,function(data){
+                        if(data['status']==1){
+                            list = data.page;
+                            html = '';
+                            for(index in list){
+                                inner=list[index];
+                                html += '<div class="row noticeList">\
+                                            <a href="'+inner_url+'/id/'+inner['id']+'">\
+                                                <div class="col-xs-2">\
+                                                    <img class="img-rounded img-responsive" src="'+inner['path']+'" />\
+                                                </div>\
+                                                <div class="col-xs-10">\
+                                                    <p class="title">'+inner['title']+'</p>\
+                                                    <p class="intro">'+inner['description']+'</p>\
+                                                    <p class="info">浏览: '+inner['view']+' <span class="pull-right">'+inner['create_time']+'</span> </p>\
+                                                </div>\
+                                            </a>\
+                                        </div>';
+                            }
+                            //console.log(html);
+                            $("#content_list").append(html);
+                        } else {
+                            $('.ajax-page').html("没有更多数据了！！").removeClass('ajax-page')
+                        }
+                    })
+                }
+            });
+        });
+    </script>
+</block>
+

@@ -1,0 +1,61 @@
+<extend name="Base/base"/>
+
+	<block name="content">
+		<div class="container-fluid container">
+			<table class="table table-condensed table-hover table-striped">
+				<tr>
+					<th>问题</th>
+					<th>报修时间</th>
+					<th>状态</th>
+				</tr>
+				<volist name="list" id="repair">
+					<tr>
+						<td>{$repair.trouble}</td>
+						<td>{$repair.create_time|time_format}</td>
+						<td>
+							{$repair.status|get_status}
+						</td>
+					</tr>
+				</volist>
+			</table>
+		</div>
+		<div class="text-center">
+			<button type="button" class="btn btn-info ajax-page" id="btn">获取更多数据~~~</button>
+		</div>
+	</block>
+<block name="new_js">
+<script type="text/javascript">
+
+	var p = 0;
+	var url = '/index.php?s=/Home/Repair/index';
+	//var inner_url = '/wchat.php?s=/Repair/detail';
+	$(function(){
+		$('.ajax-page').click(function () {
+			if($(this).hasClass('ajax-page')){
+				p = p+1;
+				$.getJSON(url+'/p/'+p,function(data){
+					if(data['status']==1){
+						list = data.page;
+						html = '';
+
+						for(index in list){
+							html += '<tr><td>'+list[index].trouble+'</td>\
+									<td>'+list[index].create_time+'</td>\
+							<td>'+list[index].status+'</td></tr>';
+						}
+						//console.log(html);
+						$("table").append(html);
+						console.log($("table"))
+					} else {
+						$('.ajax-page').html("没有跟多数据了！！").removeClass('ajax-page')
+					}
+				})
+			}
+		});
+
+	});
+
+</script>
+</block>
+
+
