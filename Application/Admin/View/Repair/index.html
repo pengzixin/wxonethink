@@ -38,7 +38,7 @@
 						<td>{$repair.tel}</td>
 						<td>{$repair.address}</td>
                         <td>{$repair.trouble}</td>
-						<td>{$repair.create_time}</td>
+						<td>{$repair.create_time|time_format}</td>
 						<td>{$repair.status}</td>
 						<td>
 							<a title="编辑" href="{:U('edit?id='.$repair['id'])}">编辑</a>

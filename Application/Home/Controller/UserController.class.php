@@ -23,10 +23,12 @@ class UserController extends HomeController {
 
 	/* 注册页面 */
 	public function register($username = '', $password = '', $repassword = '', $email = '', $verify = ''){
+       //var_dump($username);
         if(!C('USER_ALLOW_REGISTER')){
             $this->error('注册已关闭');
         }
 		if(IS_POST){ //注册用户
+			//var_dump($username);
 			/* 检测验证码 */
 			if(!check_verify($verify)){
 				$this->error('验证码输入错误！');
@@ -40,6 +42,7 @@ class UserController extends HomeController {
 			/* 调用注册接口注册用户 */
             $User = new UserApi;
 			$uid = $User->register($username, $password, $email);
+			//var_dump($uid);exit;
 			if(0 < $uid){ //注册成功
 				//TODO: 发送验证邮件
 				$this->success('注册成功！',U('login'));
@@ -68,6 +71,7 @@ class UserController extends HomeController {
 				$Member = D('Member');
 				if($Member->login($uid)){ //登录用户
 					//TODO:跳转到登录前页面
+
 					$this->success('登录成功！',U('Home/Index/index'));
 				} else {
 					$this->error($Member->getError());

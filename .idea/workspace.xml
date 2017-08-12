@@ -1,7 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b31192-1afd-44f4-a5ce-454ca49d5271" name="Default" comment="" />
+    <list default="true" id="23b31192-1afd-44f4-a5ce-454ca49d5271" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/ace-ie.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/chosen.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/colorbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.1.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.2.0/css/font-awesome.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/default/User/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ace-ie.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/chosen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/colorbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/dropzone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.1.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.2.0/css/font-awesome.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/RepairController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/RepairController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Repair/edit.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Repair/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Repair/index.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Repair/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Common/function.php" afterPath="$PROJECT_DIR$/Application/Home/Common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/default/Index/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/default/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/default/User/register.html" afterPath="$PROJECT_DIR$/Application/Home/View/default/User/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/b3562e7641e9507c2c53133a9b2f3649.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/b3562e7641e9507c2c53133a9b2f3649.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/bebbb551f58430e1d7154d620e287755.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/bebbb551f58430e1d7154d620e287755.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/b171d71961885d3bf0f7a9b2e0867b01.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/b171d71961885d3bf0f7a9b2e0867b01.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Logs/17_08_10.log" afterPath="$PROJECT_DIR$/Runtime/Logs/17_08_10.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Temp/cbc58bd3cdec352c980d0ad729b5c219.php" afterPath="$PROJECT_DIR$/Runtime/Temp/cbc58bd3cdec352c980d0ad729b5c219.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/Thumbs.db" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar1.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar2.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar3.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar4.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/avatar5.png" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/avatar5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/profile-pic.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/profile-pic.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/avatars/user.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/avatars/user.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ace-part2.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/ace-part2.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ace-rtl.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/ace-rtl.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ace.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/ace.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap-datetimepicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap-duallistbox.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap-duallistbox.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap-editable.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap-editable.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap-multiselect.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap-multiselect.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/bootstrap-timepicker.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/bootstrap-timepicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/chosen-sprite.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/chosen-sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/chosen-sprite@2x.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/chosen-sprite@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/colorpicker.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/colorpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/datepicker.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/datepicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/daterangepicker.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/daterangepicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/fullcalendar.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/fullcalendar.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/border.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/controls.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/loading.gif" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/loading_background.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/loading_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/meteorshower2.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/meteorshower2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/overlay.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/images/pattern.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/css/images/pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/img/alpha.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/img/alpha.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/img/hue.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/img/hue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/img/saturation.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/img/saturation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/jquery-ui.custom.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/jquery-ui.custom.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/jquery-ui.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/jquery-ui.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/jquery.gritter.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/jquery.gritter.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/prettify.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/prettify.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/select2-spinner.gif" afterPath="$PROJECT_DIR$/Public/static/assets/css/select2-spinner.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/select2.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/select2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/select2x2.png" afterPath="$PROJECT_DIR$/Public/static/assets/css/select2x2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ui.jqgrid.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/ui.jqgrid.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/css/ui.jqgrid.min.css" afterPath="$PROJECT_DIR$/Public/static/assets/css/ui.jqgrid.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Public/static/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/fonts/fonts.googleapis.com.css" afterPath="$PROJECT_DIR$/Public/static/assets/fonts/fonts.googleapis.com.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Public/static/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Public/static/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Public/static/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Public/static/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/Thumbs.db" afterPath="$PROJECT_DIR$/Public/static/assets/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/email1.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/email1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/email2.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/email2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/email3.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/email3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/email4.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/email4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/Thumbs.db" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-1.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-2.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-3.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-4.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-5.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/image-6.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/image-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-1.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-2.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-3.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-4.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-5.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/gallery/thumb-6.jpg" afterPath="$PROJECT_DIR$/Public/static/assets/images/gallery/thumb-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/spritemap.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/spritemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/Public/static/assets/images/spritemap@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/img/Thumbs.db" afterPath="$PROJECT_DIR$/Public/static/assets/img/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/img/clear.png" afterPath="$PROJECT_DIR$/Public/static/assets/img/clear.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/img/loading.gif" afterPath="$PROJECT_DIR$/Public/static/assets/img/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/ace-editable.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/ace-editable.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/ace-elements.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/ace-elements.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/ace-extra.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/ace-extra.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/ace.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/ace.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/additional-methods.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/additional-methods.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootbox.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootbox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-colorpicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-datepicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-datetimepicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-editable.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-markdown.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-markdown.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-multiselect.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-multiselect.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-tag.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-tag.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-timepicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap-wysiwyg.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap-wysiwyg.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/chosen.jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/dataTables.colVis.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/dataTables.colVis.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/dataTables.tableTools.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/dataTables.tableTools.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/daterangepicker.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/daterangepicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/dropzone.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/dropzone.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/excanvas.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/excanvas.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/fuelux.spinner.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/fuelux.spinner.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/fuelux.tree.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/fuelux.tree.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/fuelux.wizard.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/fuelux.wizard.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/fullcalendar.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/grid.locale-en.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/grid.locale-en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/html5shiv.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery-ui.custom.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery-ui.custom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery-ui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.1.11.1.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.1.11.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.2.1.1.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.2.1.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.autosize.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.autosize.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.bootstrap-duallistbox.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.bootstrap-duallistbox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.colorbox-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.colorbox.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.colorbox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.dataTables.bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.dataTables.bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.dataTables.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.easypiechart.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.easypiechart.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.flot.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.flot.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.flot.pie.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.flot.resize.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.gritter.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.hotkeys.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.hotkeys.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.inputlimiter.1.3.1.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.inputlimiter.1.3.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.jqGrid.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.knob.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.knob.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.maskedinput.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.mobile.custom.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.mobile.custom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.nestable.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.raty.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.raty.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.slimscroll.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.sparkline.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.ui.touch-punch.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery.validate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/jquery1x.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/jquery1x.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/markdown.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/markdown.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/moment.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/moment.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/prettify.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/prettify.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/respond.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/respond.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/select2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/spin.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/spin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/js/typeahead.jquery.min.js" afterPath="$PROJECT_DIR$/Public/static/assets/js/typeahead.jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/Home/assets/swf/copy_csv_xls_pdf.swf" afterPath="$PROJECT_DIR$/Public/static/assets/swf/copy_csv_xls_pdf.swf" />
+    </list>
     <ignored path="wxonethink.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,22 +202,74 @@
     <favorites_list name="wxonethink" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RepairController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/RepairController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19378428">
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoticeController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/NoticeController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="33.305557">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Application/Admin/Model/RepaireModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/ChannelController.class.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/PropertyController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/ChannelModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Repair/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="D:/PHP/项目/模板/loginregister/demo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/User/login1.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/User/demo.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Public/head.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Repair/edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Repair/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Base/base.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/RepairModel.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Repair/edit.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/RepairModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/RepairController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Repair/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/DocumentController.calss.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Doucument/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Document/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Notice/notice.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/Notice/index.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/default/User/login.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/default/Public/head.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/default/User/register.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/RepairController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/NoticeController.class.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -44,6 +277,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -59,7 +295,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -77,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -97,8 +332,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxonethink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -106,11 +392,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\wxonethink\Application\Home\View\default" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Public\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\phpStudy\WWW\wxonethink\Public\Home" />
-      <recent name="D:\phpStudy\WWW\wxonethink\Application\Admin\View\Repair" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Application\Home\Model" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Application\Home\View" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Application\Home\Controller" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Public\static" />
+      <recent name="D:\phpStudy\WWW\wxonethink\Public\static\static\index" />
     </key>
   </component>
   <component name="RunManager">
@@ -129,6 +423,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -139,6 +438,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator.USER-20150301KF\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="23b31192-1afd-44f4-a5ce-454ca49d5271" name="Default" comment="" />
@@ -150,99 +452,286 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33509833" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Application/Home/View/default/Notice/index.html</url>
+          <line>25</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ThinkController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Public/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.407678">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.0073127">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Public/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58318096">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6111112">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5667276">
+          <caret line="90" column="71" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ModelController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Repair/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8628886">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.26508227">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/MenuController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Repair/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21206582">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Repair/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31809872">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/ModelModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1387270550000" expanded="true" signature="4334:4345" placeholder="DROP TABLE $... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/RepairModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.37842777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21206582">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/index.html">
+    <entry file="file://$PROJECT_DIR$/../yiishop/frontend/views/goods/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15904936">
+        <state vertical-scroll-proportion="-2.8628886">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/MemberModel.class.php">
+    <entry file="file://$PROJECT_DIR$/../yiishop/frontend/controllers/GoodsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2723949">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.4771481">
+          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
+    <entry file="file://D:/PHP/项目/中级项目/Application/Model/PageModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.63619745">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/FileModel.class.php">
+    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Home/OrderController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0676417">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-4.5667276">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/PublicController.class.php">
+    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Home/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11334552">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Home/PlainsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Admin/DivisionController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3857405">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Admin/VipController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.31809872">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/blog/admin/indexs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.63619745">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/blog/admin/comment/comment_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4917734">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/项目/gusetbook/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/RepairController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3784277">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69469833">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/RepairModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53016454">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ActionController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Menu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.703839">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31444243">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Channel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.583334">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.438757">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/DocumentModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37111518">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding>
+            <element signature="e#504#520#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/2017-3-28myphp/doc/2017-08-10-onethink-微信开发/resources/项目前台模板/static/index/notice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6111112">
+          <caret line="2" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Repair/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049360145">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <marker date="1502504813192" expanded="true" signature="1021:1068" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1021:1112" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1021:1113" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1021:1145" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1113:1114" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1113:1116" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1113:1134" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1113:1139" placeholder="..." />
+            <marker date="1502504813192" expanded="true" signature="1113:1140" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PHP/2017-3-28myphp/doc/2017-08-10-onethink-微信开发/resources/项目前台模板/static/index/notice-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4771481">
+          <caret line="9" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ChannelController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.4771481">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -250,238 +739,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AddonsController.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/PictureModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-4.6124315">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.63619745">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6131528">
+          <caret line="502" column="41" selection-start-line="502" selection-start-column="35" selection-end-line="502" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Article/index.html">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Article/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3400366">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.25">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ArticleController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5447898">
-          <caret line="196" column="28" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/DocumentModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2413163">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#483#499#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Admin/ArticleController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26508227">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55876684">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3546618">
-          <caret line="362" column="9" selection-start-line="362" selection-start-column="9" selection-end-line="362" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yiishop/backend/models/Goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6581352">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yiishop/backend/controllers/GoodsController.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ChannelModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58318096">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yiishop/backend/models/GoodsDayCount.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Notice/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4771481">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/ChannelModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5277777">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Channel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36745888">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Repair/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48446068">
-          <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Channel/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85557586">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Repair/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7263969">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/RepairModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.472222">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ChannelController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9166667">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4680073">
-          <caret line="907" column="9" selection-start-line="907" selection-start-column="9" selection-end-line="907" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/PHP/项目/中级项目/Application/Controller/Admin/CaptchaController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4771481">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/User/Model/UcenterMemberModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="79.19444">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/User/Api/UserApi.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3107861">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37111518">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/RepairController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.416819">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Home/assets/js/ace.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/PHP/项目/模板/loginregister/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25776964">
-          <caret line="34" column="20" selection-start-line="3" selection-start-column="8" selection-end-line="34" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.15904936">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding>
-            <marker date="1461112741039" expanded="true" signature="9335:9438" placeholder="..." />
+            <marker date="1502518049131" expanded="true" signature="1638:2547" placeholder="..." />
+            <marker date="1502518049131" expanded="true" signature="1727:2499" placeholder="..." />
+            <marker date="1502518049131" expanded="true" signature="1799:1975" placeholder="..." />
+            <marker date="1502518049131" expanded="true" signature="2048:2449" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Public/head.html">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Notice/notice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.361111">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Base/common.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37111518">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/default/User/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42413163">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="-8.805555">
+          <caret line="98" column="81" selection-start-line="98" selection-start-column="81" selection-end-line="98" selection-end-column="81" />
+          <folding>
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502519420598" expanded="true" signature="14265:14382" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/User/Api/UserApi.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51371115">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.171764">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/MemberModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2517648">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/User/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9444444">
+          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+          <folding>
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1502521857138" expanded="true" signature="8464:8581" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7270588">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.63889">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8055556">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.637647">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/NoticeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="33.305557">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/User/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05225225">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/RepairController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19378428">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
           <folding />
         </state>
       </provider>

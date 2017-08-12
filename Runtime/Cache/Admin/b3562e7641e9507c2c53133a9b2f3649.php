@@ -91,7 +91,7 @@
 			<?php if(!empty($pid)): ?>[&nbsp;父导航：<a href="<?php echo U('index','pid='.$pid);?>"><?php echo ($parent["title"]); ?></a>&nbsp;]<?php endif; ?>
 		</h2>
 	</div>
-	<form action="<?php echo U();?>" method="post" class="form-horizontal">
+	<form action="<?php echo U('');?>" method="post" class="form-horizontal">
 		<input type="hidden" name="pid" value="<?php echo ($pid); ?>">
 		<div class="form-item">
 			<label class="item-label">报修人<span class="check-tips">（报修人姓名）</span></label>

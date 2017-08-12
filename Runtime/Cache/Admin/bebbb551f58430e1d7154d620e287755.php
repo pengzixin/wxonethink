@@ -120,7 +120,7 @@
 						<td><?php echo ($repair["tel"]); ?></td>
 						<td><?php echo ($repair["address"]); ?></td>
                         <td><?php echo ($repair["trouble"]); ?></td>
-						<td><?php echo ($repair["create_time"]); ?></td>
+						<td><?php echo (time_format($repair["create_time"])); ?></td>
 						<td><?php echo ($repair["status"]); ?></td>
 						<td>
 							<a title="编辑" href="<?php echo U('edit?id='.$repair['id']);?>">编辑</a>

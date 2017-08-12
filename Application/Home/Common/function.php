@@ -68,3 +68,16 @@ function get_nav_url($url){
     }
     return $url;
 }
+//自定义报修状态
+function get_status($status=null){
+    if(!isset($status)){
+        return false;
+    }
+    switch ($status){
+        case -1 : return    '已取消';   break;
+        case 0  : return    '报修中';     break;
+        case 1  : return    '处理中';     break;
+        case 2  : return    '已完成';   break;
+        default : return    false;      break;
+    }
+}

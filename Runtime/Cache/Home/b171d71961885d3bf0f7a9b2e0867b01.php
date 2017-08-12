@@ -1,208 +1,371 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-<title><?php echo C('WEB_SITE_TITLE');?></title>
-<link href="/Public/static/bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="/Public/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="/Public/static/bootstrap/css/docs.css" rel="stylesheet">
-<link href="/Public/static/bootstrap/css/onethink.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>登录页面</title>
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="/Public/static/bootstrap/js/html5shiv.js"></script>
-<![endif]-->
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/Public/static/jquery-1.10.2.min.js"></script>
-<![endif]-->
-<!--[if gte IE 9]><!-->
-<script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="/Public/static/bootstrap/js/bootstrap.min.js"></script>
-<!--<![endif]-->
-<!-- 页面header钩子，一般用于加载插件CSS文件和代码 -->
-<?php echo hook('pageHeader');?>
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="/Public/static/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Public/static/assets/font-awesome/4.2.0/css/font-awesome.min.css" />
 
+    <!-- text fonts -->
+    <link rel="stylesheet" href="/Public/static/assets/fonts/fonts.googleapis.com.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="/Public/static/assets/css/ace.min.css" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Public/static/assets/css/ace-part2.min.css" />
+    <![endif]-->
+    <link rel="stylesheet" href="/Public/static/assets/css/ace-rtl.min.css" />
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/Public/static/assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="/Public/static/assets/js/html5shiv.min.js"></script>
+    <script src="/Public/static/assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-	<!-- 头部 -->
-	<!-- 导航条
-================================================== -->
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="<?php echo U('index/index');?>">OneThink</a>
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    <?php $__NAV__ = M('Channel')->field(true)->where("status=1")->order("sort")->select(); if(is_array($__NAV__)): $i = 0; $__LIST__ = $__NAV__;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$nav): $mod = ($i % 2 );++$i; if(($nav["pid"]) == "0"): ?><li>
-                            <a href="<?php echo (get_nav_url($nav["url"])); ?>" target="<?php if(($nav["target"]) == "1"): ?>_blank<?php else: ?>_self<?php endif; ?>"><?php echo ($nav["title"]); ?></a>
-                        </li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-                </ul>
-            </div>
-            <div class="nav-collapse collapse pull-right">
-                <?php if(is_login()): ?><ul class="nav" style="margin-right:0">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left:0;padding-right:0"><?php echo get_username();?> <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="<?php echo U('User/profile');?>">修改密码</a></li>
-                                <li><a href="<?php echo U('User/logout');?>">退出</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                <?php else: ?>
-                    <ul class="nav" style="margin-right:0">
-                        <li>
-                            <a href="<?php echo U('User/login');?>">登录</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo U('User/register');?>" style="padding-left:0;padding-right:0">注册</a>
-                        </li>
-                    </ul><?php endif; ?>
-            </div>
-        </div>
-    </div>
-</div>
 
-	<!-- /头部 -->
-	
-	<!-- 主体 -->
-	
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h2>用户登录</h2>
-    <p><span><span class="pull-left"><span>还没有账号? <a href="<?php echo U('User/register');?>">立即注册</a></span> </span></p>
-  </div>
-</header>
+<body class="login-layout">
+<div class="main-container">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="login-container">
+                    <div class="center">
+                        <h1>
+                            <i class="ace-icon fa fa-leaf green"></i>
+                            <span class="red"></span>
+                            <span class="white" id="id-text2">应用管理</span>
+                        </h1>
+                        <h4 class="blue" id="id-company-text">&copy; 公司名称</h4>
+                    </div>
 
-<div id="main-container" class="container">
-    <div class="row">
-         
-        
-<section>
-	<div class="span12">
-        <form class="login-form" action="/index.php?s=/Home/User/login.html" method="post">
-          <div class="control-group">
-            <label class="control-label" for="inputEmail">用户名</label>
-            <div class="controls">
-              <input type="text" id="inputEmail" class="span3" placeholder="请输入用户名"  ajaxurl="/member/checkUserNameUnique.html" errormsg="请填写1-16位用户名" nullmsg="请填写用户名" datatype="*1-16" value="" name="username">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="inputPassword">密码</label>
-            <div class="controls">
-              <input type="password" id="inputPassword"  class="span3" placeholder="请输入密码"  errormsg="密码为6-20位" nullmsg="请填写密码" datatype="*6-20" name="password">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="inputPassword">验证码</label>
-            <div class="controls">
-              <input type="text" id="inputPassword" class="span3" placeholder="请输入验证码"  errormsg="请填写5位验证码" nullmsg="请填写验证码" datatype="*5-5" name="verify">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label"></label>
-            <div class="controls">
-                <img class="verifyimg reloadverify" alt="点击切换" src="<?php echo U('verify');?>" style="cursor:pointer;">
-            </div>
-            <div class="controls Validform_checktip text-warning"></div>
-          </div>
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox">
-                <input type="checkbox"> 自动登陆
-              </label>
-              <button type="submit" class="btn">登 陆</button>
-            </div>
-          </div>
-        </form>
-	</div>
-</section>
+                    <div class="space-6"></div>
 
-    </div>
-</div>
+                    <div class="position-relative">
+                        <div id="login-box" class="login-box visible widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header blue lighter bigger">
+                                        <i class="ace-icon fa fa-coffee green"></i>
+                                        请输入您的信息
+                                    </h4>
 
+                                    <div class="space-6"></div>
+
+                                    <form class="login-form" action="/index.php?s=/Home/User/login.html" method="post">
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputEmail">用户名</label>
+                                            <div class="controls">
+                                                <input type="text" id="inputEmail" class="span3 col-xs-12" placeholder="请输入用户名"  ajaxurl="/member/checkUserNameUnique.html" errormsg="请填写1-16位用户名" nullmsg="请填写用户名" datatype="*1-16" value="" name="username">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputPassword">密码</label>
+                                            <div class="controls">
+                                                <input type="password" id="inputPassword"  class="span3 col-xs-12" placeholder="请输入密码"  errormsg="密码为6-20位" nullmsg="请填写密码" datatype="*6-20" name="password">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputPassword">验证码</label>
+                                            <div class="controls">
+                                                <input type="text" id="inputPassword" class="span3 col-xs-12" placeholder="请输入验证码"  errormsg="请填写5位验证码" nullmsg="请填写验证码" datatype="*5-5" name="verify">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label"></label>
+                                            <div class="controls">
+                                                <img class="verifyimg reloadverify" alt="点击切换" src="<?php echo U('verify');?>" style="cursor:pointer;">
+                                            </div>
+                                            <div class="controls Validform_checktip text-warning"></div>
+                                        </div>
+                                        <div class="space"></div>
+                                        <div class="control-group">
+                                        <div class="clearfix controls">
+                                            <label class="inline checkbox">
+                                                <input type="checkbox"/>
+                                                <span class="lbl"> 记住</span>
+                                            </label>
+                                            <button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                                                <i class="ace-icon fa fa-key"></i>
+                                                <span class="bigger-110">登录</span>
+                                            </button>
+                                        </div>
+                                        </div>
+                                    </form>
+
+                                    <div class="space-6"></div>
+                                </div><!-- /.widget-main -->
+
+                                <div class="toolbar clearfix">
+                                    <div>
+                                        <a href="#" data-target="#forgot-box" class="forgot-password-link">
+                                            <i class="ace-icon fa fa-arrow-left"></i>
+                                            忘记密码
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                        <a href="#" data-target="#signup-box" class="user-signup-link">
+                                            注册
+                                            <i class="ace-icon fa fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- /.widget-body -->
+                        </div><!-- /.login-box -->
+
+                        <div id="forgot-box" class="forgot-box widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header red lighter bigger">
+                                        <i class="ace-icon fa fa-key"></i>
+                                        找回密码
+                                    </h4>
+
+                                    <div class="space-6"></div>
+                                    <p>
+                                        输入您的电子邮件和接收指令
+                                    </p>
+
+                                    <form>
+                                        <fieldset>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+															<i class="ace-icon fa fa-envelope"></i>
+														</span>
+                                            </label>
+
+                                            <div class="clearfix">
+                                                <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+                                                    <i class="ace-icon fa fa-lightbulb-o"></i>
+                                                    <span class="bigger-110">发送邮件</span>
+                                                </button>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div><!-- /.widget-main -->
+
+                                <div class="toolbar center">
+                                    <a href="#" data-target="#login-box" class="back-to-login-link">
+                                        返回登录
+                                        <i class="ace-icon fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div><!-- /.widget-body -->
+                        </div><!-- /.forgot-box -->
+
+                        <div id="signup-box" class="signup-box widget-box no-border">
+                            <div class="widget-body">
+                                <div class="widget-main">
+                                    <h4 class="header green lighter bigger">
+                                        <i class="ace-icon fa fa-users blue"></i>
+                                        用户注册
+                                    </h4>
+
+                                    <div class="space-6"></div>
+                                    <p>填写信息: </p>
+
+                                    <form>
+                                        <fieldset>
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control cols-3" placeholder="邮箱" />
+															<i class="ace-icon fa fa-envelope"></i>
+														</span>
+                                            </label>
+
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="用户名" />
+															<i class="ace-icon fa fa-user"></i>
+														</span>
+                                            </label>
+
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="密码" />
+															<i class="ace-icon fa fa-lock"></i>
+														</span>
+                                            </label>
+
+                                            <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" class="form-control" placeholder="确认密码" />
+															<i class="ace-icon fa fa-retweet"></i>
+														</span>
+                                            </label>
+
+                                            <label class="block">
+                                                <input type="checkbox" class="ace" />
+														<span class="lbl">
+															接受
+															<a href="#">用户协议</a>
+														</span>
+                                            </label>
+
+                                            <div class="space-24"></div>
+
+                                            <div class="clearfix">
+                                                <button type="reset" class="width-30 pull-left btn btn-sm">
+                                                    <i class="ace-icon fa fa-refresh"></i>
+                                                    <span class="bigger-110">重置</span>
+                                                </button>
+
+                                                <button type="button" class="width-65 pull-right btn btn-sm btn-success">
+                                                    <span class="bigger-110">注册</span>
+
+                                                    <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
+                                                </button>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+
+                                <div class="toolbar center">
+                                    <a href="#" data-target="#login-box" class="back-to-login-link">
+                                        <i class="ace-icon fa fa-arrow-left"></i>
+                                        返回登录
+                                    </a>
+                                </div>
+                            </div><!-- /.widget-body -->
+                        </div><!-- /.signup-box -->
+                    </div><!-- /.position-relative -->
+
+                    <div class="navbar-fixed-top align-right">
+                        <br />
+                        &nbsp;
+                        <a id="btn-login-dark" href="#">Dark</a>
+                        &nbsp;
+                        <span class="blue">/</span>
+                        &nbsp;
+                        <a id="btn-login-blur" href="#">Blur</a>
+                        &nbsp;
+                        <span class="blue">/</span>
+                        &nbsp;
+                        <a id="btn-login-light" href="#">Light</a>
+                        &nbsp; &nbsp; &nbsp;
+                    </div>
+                </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.main-content -->
+</div><!-- /.main-container -->
+
+<!-- basic scripts -->
+
+<!--[if !IE]> -->
+<script src="/Public/static/assets/js/jquery.2.1.1.min.js"></script>
+
+<!-- <![endif]-->
+
+<!--[if IE]>
+<script src="/Public/static/assets/js/jquery.1.11.1.min.js"></script>
+<![endif]-->
+
+<!--[if !IE]> -->
 <script type="text/javascript">
-    $(function(){
-        $(window).resize(function(){
-            $("#main-container").css("min-height", $(window).height() - 343);
-        }).resize();
-    })
+    window.jQuery || document.write("<script src='assets/js/jquery.min.js'>"+"<"+"/script>");
 </script>
-	<!-- /主体 -->
 
-	<!-- 底部 -->
-	
-    <!-- 底部
-    ================================================== -->
-    <footer class="footer">
-      <div class="container">
-          <p> 本站由 <strong><a href="http://www.onethink.cn" target="_blank">OneThink</a></strong> 强力驱动</p>
-      </div>
-    </footer>
+<!-- <![endif]-->
 
+<!--[if IE]>
 <script type="text/javascript">
-(function(){
-	var ThinkPHP = window.Think = {
-		"ROOT"   : "", //当前网站地址
-		"APP"    : "/index.php?s=", //当前项目地址
-		"PUBLIC" : "/Public", //项目公共目录地址
-		"DEEP"   : "<?php echo C('URL_PATHINFO_DEPR');?>", //PATHINFO分割符
-		"MODEL"  : ["<?php echo C('URL_MODEL');?>", "<?php echo C('URL_CASE_INSENSITIVE');?>", "<?php echo C('URL_HTML_SUFFIX');?>"],
-		"VAR"    : ["<?php echo C('VAR_MODULE');?>", "<?php echo C('VAR_CONTROLLER');?>", "<?php echo C('VAR_ACTION');?>"]
-	}
-})();
+    window.jQuery || document.write("<script src='/Public/static/assets/js/jquery1x.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+<script type="text/javascript">
+    if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
 
-	<script type="text/javascript">
+<!-- inline scripts related to this page -->
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).on('click', '.toolbar a[data-target]', function(e) {
+            e.preventDefault();
+            var target = $(this).data('target');
+            $('.widget-box.visible').removeClass('visible');//hide others
+            $(target).addClass('visible');//show target
+        });
+    });
 
-    	$(document)
-	    	.ajaxStart(function(){
-	    		$("button:submit").addClass("log-in").attr("disabled", true);
-	    	})
-	    	.ajaxStop(function(){
-	    		$("button:submit").removeClass("log-in").attr("disabled", false);
-	    	});
 
 
-    	$("form").submit(function(){
-    		var self = $(this);
-    		$.post(self.attr("action"), self.serialize(), success, "json");
-    		return false;
+    //you don't need this, just used for changing background
+    jQuery(function($) {
+        $('#btn-login-dark').on('click', function(e) {
+            $('body').attr('class', 'login-layout');
+            $('#id-text2').attr('class', 'white');
+            $('#id-company-text').attr('class', 'blue');
 
-    		function success(data){
-    			if(data.status){
-    				window.location.href = data.url;
-    			} else {
-    				self.find(".Validform_checktip").text(data.info);
-    				//刷新验证码
-    				$(".reloadverify").click();
-    			}
-    		}
-    	});
+            e.preventDefault();
+        });
+        $('#btn-login-light').on('click', function(e) {
+            $('body').attr('class', 'login-layout light-login');
+            $('#id-text2').attr('class', 'grey');
+            $('#id-company-text').attr('class', 'blue');
 
-		$(function(){
-			var verifyimg = $(".verifyimg").attr("src");
-            $(".reloadverify").click(function(){
-                if( verifyimg.indexOf('?')>0){
-                    $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
-                }else{
-                    $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
-                }
+            e.preventDefault();
+        });
+        $('#btn-login-blur').on('click', function(e) {
+            $('body').attr('class', 'login-layout blur-login');
+            $('#id-text2').attr('class', 'white');
+            $('#id-company-text').attr('class', 'light-blue');
+
+            e.preventDefault();
+        });
+
+    });
+
+    $(document)
+            .ajaxStart(function(){
+                $("button:submit").addClass("log-in").attr("disabled", true);
+            })
+            .ajaxStop(function(){
+                $("button:submit").removeClass("log-in").attr("disabled", false);
             });
-		});
-	</script>
- <!-- 用于加载js代码 -->
-<!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
-<?php echo hook('pageFooter', 'widget');?>
-<div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->
-	
-</div>
 
-	<!-- /底部 -->
+
+    $("form").submit(function(){
+        var self = $(this);
+        $.post(self.attr("action"), self.serialize(), success, "json");
+        return false;
+
+        function success(data){
+            if(data.status){
+                window.location.href = data.url;
+            } else {
+                self.find(".Validform_checktip").text(data.info);
+                //刷新验证码
+                $(".reloadverify").click();
+            }
+        }
+    });
+
+    $(function(){
+        var verifyimg = $(".verifyimg").attr("src");
+        $(".reloadverify").click(function(){
+            if( verifyimg.indexOf('?')>0){
+                $(".verifyimg").attr("src", verifyimg+'&random='+Math.random());
+            }else{
+                $(".verifyimg").attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
+            }
+        });
+    });
+</script>
+<div style="text-align:center;">
+</div>
 </body>
 </html>
